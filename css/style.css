@@ -43,7 +43,6 @@ a{
     padding: 5px;
     
 
-
 }
 .logo h1{
     font-weight: 700;
@@ -99,4 +98,46 @@ a{
     text-align: justify;
     font-weight: 400;
     margin-bottom: 50px;
+}
+
+.mid-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star{
+    width:15px;
+    margin: 5px;
+}
+.mid-right h1{
+    color: #08346D;
+}
+
+.mid-section p{
+    font-size: 12px;
+    color: #425062;
+}
+
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.company-logo{
+    width: 100px;
+}
+
+.how-works{
+    margin-top:50px;
+    text-align: center;
+}
+.how-works h1{
+    color: #08346D;
+}
+.how-works p{
+    color: #425062;
+    font-size: 14px;
 }
