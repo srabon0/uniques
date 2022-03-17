@@ -106,10 +106,6 @@ a{
     align-items: center;
 }
 
-.star{
-    width:15px;
-    margin: 5px;
-}
 .mid-right h1{
     color: #08346D;
 }
@@ -133,6 +129,8 @@ a{
 .how-works{
     margin-top:50px;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
 }
 .how-works h1{
     color: #08346D;
@@ -140,4 +138,37 @@ a{
 .how-works p{
     color: #425062;
     font-size: 14px;
+}
+
+.services{
+    display: flex;
+    margin-bottom: 100px;
+}
+.box{
+    margin:50px
+}
+
+.box img {
+    width: 150px;
+
+}
+.arrow img{
+    width: 20px;
+}
+
+.arrow p{
+    display: inline;
+}
+
+
+.center{
+border:none;
+background-color: #08346D;
+color:#CACFD2;
+}
+.works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
